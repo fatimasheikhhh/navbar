@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Dropdown Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:#333;">
+
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#link">Link</a></li>
+        <li class="dropdown">
+            <a class="dropdown-btn">Dropdown</a>
+            <div class="dropdown-content">
+                <a href="#">Action</a>
+                <a href="#">Another action</a>
+                <a href="#">Something else</a>
+                <div class="dropdown-submenu">
+                    <a href="#" >Dropdown</a>
+                    <div class="dropdown-content">
+                        <a href="#">Action</a>
+                        <a href="#">Another action</a>
+                        <a href="#">Something else</a>
+                        <div class="dropdown-submenu">
+                    <a href="#">Dropdown</a>
+                    <div class="dropdown-content">
+                        <a href="#">Action</a>
+                        <a href="#">Another action</a>
+                        <a href="#">Something else</a>
+                    </div>
+                </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li><a href="#disabled" class="disabled">Disabled</a></li>
+    </ul>
+
+</body>
+</html>
